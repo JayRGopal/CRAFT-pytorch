@@ -109,6 +109,7 @@ def test_net(net, image, text_threshold, link_threshold, low_text, cuda, poly):
     return boxes, polys, ret_score_text
 
 
+__name__ = __main__
 
 if __name__ == '__main__':
     # load net
